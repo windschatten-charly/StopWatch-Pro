@@ -64,7 +64,7 @@ button {
   line-height: 0.86;
   letter-spacing: -0.055em;
   white-space: nowrap;
-  font-size: clamp(7rem, 25vw, 22rem);
+  font-size: 40vw;
   transform: translateY(-1%);
 }
 
