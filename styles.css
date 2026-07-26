@@ -38,12 +38,8 @@ button {
   height: 100dvh;
   display: grid;
   grid-template-rows: minmax(0, 1fr) auto;
-  gap: clamp(12px, 2vh, 24px);
-  padding:
-    calc(var(--safe-top) + clamp(12px, 2vh, 24px))
-    calc(var(--safe-right) + clamp(18px, 2.4vw, 34px))
-    calc(var(--safe-bottom) + clamp(16px, 2.5vh, 28px))
-    calc(var(--safe-left) + clamp(18px, 2.4vw, 34px));
+  gap: 0;
+  padding: 8px 20px;
   background: #000;
 }
 
@@ -64,7 +60,7 @@ button {
   line-height: 0.86;
   letter-spacing: -0.055em;
   white-space: nowrap;
-  font-size: 40vw;
+  font-size: min(46vw, 72vh);
   transform: translateY(-1%);
 }
 
