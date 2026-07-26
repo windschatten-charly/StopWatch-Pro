@@ -81,5 +81,3 @@ No build tools.
 - Multiple Timers
 
 ## License
-
-MIT License
